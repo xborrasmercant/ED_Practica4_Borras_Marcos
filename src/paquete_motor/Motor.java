@@ -72,9 +72,9 @@ public class Motor {
          * valor 'null', o sea, vacíos.
          */
     public Motor() {
-        this.fabricante = null;
-        this.potencia = null;
-        this.codigo = 0;
+        this.setFabricante(null);
+        this.setPotencia(null);
+        this.setCodigo(0);
     }
     //Constructor Completo
         /**
@@ -88,9 +88,9 @@ public class Motor {
          * al atributo 'codigo' de la clase 'Motor'
          */
     public Motor(String fabricante, String potencia, int codigo) {
-        this.fabricante = fabricante;
-        this.potencia = potencia;
-        this.codigo = codigo;
+        this.setFabricante(fabricante);
+        this.setPotencia(potencia);
+        this.setCodigo(codigo);
     }
 //ToString
     /**

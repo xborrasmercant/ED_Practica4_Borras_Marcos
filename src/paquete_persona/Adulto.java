@@ -49,21 +49,21 @@ public class Adulto extends Persona {
 	 * Constructor de la clase 'Persona', que establece sus atributos con el valor 'null', o sea, vac�os.
 	 */
 	// CONSTRUCTORES
-	public Adulto() {
-		this.NSS = null;
-		this.direccion = null;
-	}
-	
-	/**
-	 * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Adulto'.
-	 * @param NSS El par�metro 'NSS' le otorga un valor en may�sculas de tipo String al atributo 'NSS' de la clase 'Adulto'.
-	 * @param direccion El par�metro 'direccion' le otorga un valor de tipo String al atributo 'direccion' de la clase 'Adulto'.
-	 */
-	public Adulto(String nombre, String DNI, Integer edad, String NSS, String direccion) {
-		super(nombre, DNI, edad);
-		this.NSS = NSS.toUpperCase();
-		this.direccion = direccion;
-	}
+public Adulto() {
+        this.setNSS(null);
+        this.setDireccion(null);
+    }
+
+    /**
+     * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Adulto'.
+     * @param NSS El parámetro 'NSS' le otorga un valor en mayúsculas de tipo String al atributo 'NSS' de la clase 'Adulto'.
+     * @param direccion El parámetro 'direccion' le otorga un valor de tipo String al atributo 'direccion' de la clase 'Adulto'.
+     */
+    public Adulto(String nombre, String DNI, Integer edad, String NSS, String direccion) {
+        super(nombre, DNI, edad);
+        this.setNSS(NSS.toUpperCase());
+        this.setDireccion(direccion);
+    }
 	
 //	TO STRING
 	/**

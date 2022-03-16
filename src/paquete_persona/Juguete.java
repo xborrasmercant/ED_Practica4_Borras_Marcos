@@ -69,22 +69,22 @@ public class Juguete extends Ninyo {
 	 * Constructor de la clase 'Juguete', que establece sus atributos con el valor 'null', o sea, vac�os.
 	 */
 	public Juguete() {
-		this.nombre = null;
-		this.precio = 0;
-		this.edadRecomendada = 0;
-	}
-				
-	/**
-	 * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Juguete'.
-	 * @param nombre El par�metro 'nombre' le otorga un valor de tipo String al atributo 'nombre' de la clase 'Juguete'.
-	 * @param precio El par�metro 'precio' le otorga un valor de tipo int al atributo 'precio' de la clase 'Juguete'.
-	 * @param edadRecomendada El par�metro 'edadRecomendada' le otorga un valor de tipo int al atributo 'edadRecomendada' de la clase 'Juguete'.
-	 */
-	public Juguete(String nombre, int precio, int edadRecomendada) {
-		this.nombre = nombre;
-		this.precio = precio;
-		this.edadRecomendada = edadRecomendada;
-	}				
+        this.setNombre(null);
+        this.setPrecio(0);
+        this.setEdadRecomendada(0);
+    }
+
+    /**
+     * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Juguete'.
+     * @param nombre El parámetro 'nombre' le otorga un valor de tipo String al atributo 'nombre' de la clase 'Juguete'.
+     * @param precio El parámetro 'precio' le otorga un valor de tipo int al atributo 'precio' de la clase 'Juguete'.
+     * @param edadRecomendada El parámetro 'edadRecomendada' le otorga un valor de tipo int al atributo 'edadRecomendada' de la clase 'Juguete'.
+     */
+    public Juguete(String nombre, int precio, int edadRecomendada) {
+        this.setNombre(nombre);
+        this.setPrecio(precio);
+        this.setEdadRecomendada(edadRecomendada);
+    }
 			
 //	TO STRING
 	/**

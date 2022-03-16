@@ -38,13 +38,13 @@ public class Perro extends Mascota{
      * Constructor de la clase 'Perro', que establece sus atributos con el 
      * valor 'null', o sea, vacios.
      */
-    public Perro() {
-        this.raza = null;
+   public Perro() {
+        this.setRaza(null);
     }
     //Constructor Completo
     /**
          * Constructor completo para otorgarle un valor por defecto a cada 
-         * atributo de la clase 'Barco'.
+         * atributo de la clase 'Perro'.
          * Al utilizar 'super' utiliza los atributos de la superclase
          * @param raza EL parametro 'raza' le otorga un valor tipo 'String'
          * al atributo 'raza' de la clase 'Perro'
@@ -56,7 +56,7 @@ public class Perro extends Mascota{
          */
     public Perro(String raza, String nombre, int edad) {
         super(nombre, edad);
-        this.raza = raza;
+        this.setRaza(raza);
     }
 //Método toString
     /**

@@ -56,8 +56,8 @@ public class Mascota implements Sonido {
          * valor 'null', o sea, vacios.
          */
     public Mascota() {
-        this.nombre = null;
-        this.edad = 0;
+        this.setNombre(null);
+        this.setEdad(0);
     }
     //Constructor Completo
         /**
@@ -70,8 +70,8 @@ public class Mascota implements Sonido {
          * al atributo 'edad' de la clase 'Mascota'
          */
     public Mascota(String nombre, int edad) {
-        this.nombre = nombre;
-        this.edad = edad;
+        this.setNombre(nombre);
+        this.setEdad(edad);
     }
 //Método 'sonido' de la interfaz 'Sonido'
     @Override

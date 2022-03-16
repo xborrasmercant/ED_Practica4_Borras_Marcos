@@ -34,17 +34,17 @@ public class Ninyo extends Persona {
 	 * Constructor de la clase 'Ninyo', que establece sus atributos con el valor 'null', o sea, vac�os.
 	 */
 	public Ninyo() {
-		this.colegio = null;
-	}
-	
-	/**
-	 * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Ninyo'.
-	 * @param colegio El par�metro 'colegio' le otorga un valor de tipo String al atributo 'colegio' de la clase 'Ninyo'.
-	 */
-	public Ninyo(String nombre, String DNI, Integer edad, String colegio) {
-		super(nombre, DNI, edad);
-		this.colegio = colegio;
-	}	
+        this.setColegio(null);
+    }
+
+    /**
+     * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Ninyo'.
+     * @param colegio El parámetro 'colegio' le otorga un valor de tipo String al atributo 'colegio' de la clase 'Ninyo'.
+     */
+    public Ninyo(String nombre, String DNI, Integer edad, String colegio) {
+        super(nombre, DNI, edad);
+        this.setColegio(colegio);
+    }
 	
 //	TO STRING
 	/**

@@ -39,7 +39,7 @@ public class Gato extends Mascota{
      * valor 'null', o sea, vacios.
      */
     public Gato() {
-        this.raza = null;
+        this.setRaza(null);
     }
     //Constructor Completo
     /**
@@ -56,7 +56,7 @@ public class Gato extends Mascota{
          */
     public Gato(String raza, String nombre, int edad) {
         super(nombre, edad);
-        this.raza = raza;
+        this.setRaza(raza);
     }
 //Metodo toString
     /**

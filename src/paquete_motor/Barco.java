@@ -82,13 +82,13 @@ public class Barco implements Sonido {
          * valor 'null', o sea, vacios.
          */
     public Barco(){
-        /**De esta manera cada vez que usemos el constructor se pondra de 
+        /De esta manera cada vez que usemos el constructor se pondra de 
         *base los atributos de la clase Motor
         */ 
         motor = new Motor();
-        this.nombre = null;
-        this.fechaConstruccion = null;
-        this.numCamarote = 0;
+        this.setNombre(null);
+        this.setFechaConstruccion(null);
+        this.setNumCamarote(0);
     }
     //Constructor Completo
         /**
@@ -105,9 +105,10 @@ public class Barco implements Sonido {
          */
     public Barco(String nombre,Date fechaConstruccion,int numCamarote){
         motor = new Motor();
-        this.nombre = nombre;
-        this.fechaConstruccion = fechaConstruccion;
-        this.numCamarote = numCamarote;
+        this.setNombre(nombre);
+        this.setFechaConstruccion(fechaConstruccion);
+        this.setNumCamarote(numCamarote);
+    }
     }
     /**
      * Metodo 'sonido' de la interfaz 'Sonido'

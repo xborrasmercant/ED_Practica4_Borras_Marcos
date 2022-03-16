@@ -1,4 +1,4 @@
-package paquete_persona;
+package paquete_persona	;
 
 /**
  * Esta clase, llamada 'Persona', tiene definidos los atributos 'nombre', 'DNI' y 'edad'.
@@ -71,22 +71,22 @@ public class Persona {
 	 * Constructor de la clase 'Persona', que establece sus atributos con el valor 'null', o sea, vac�os.
 	 */
 	public Persona() {
-		this.nombre = null;
-		this.DNI = null;
-		this.edad = 0;
-	}
-	
-	/**
-	 * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Persona'.
-	 * @param nombre El par�metro 'nombre' le otorga un valor en may�sculas de tipo String al atributo 'nombre' de la clase 'Persona'.
-	 * @param DNI El par�metro 'DNI' le otorga un valor de tipo String al atributo 'DNI' de la clase 'Persona'.
-	 * @param nombre El par�metro 'edad' le otorga un valor de tipo int al atributo 'edad' de la clase 'Persona'.
-	 */
-	public Persona(String nombre, String DNI, int edad) {
-		this.nombre = nombre.toUpperCase();
-		this.DNI = DNI;
-		this.edad = edad;
-	}
+        this.setNombre(null);
+        this.setDNI(null);
+        this.setEdad(0);
+    }
+
+    /**
+     * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Persona'.
+     * @param nombre El parámetro 'nombre' le otorga un valor en mayúsculas de tipo String al atributo 'nombre' de la clase 'Persona'.
+     * @param DNI El parámetro 'DNI' le otorga un valor de tipo String al atributo 'DNI' de la clase 'Persona'.
+     * @param nombre El parámetro 'edad' le otorga un valor de tipo int al atributo 'edad' de la clase 'Persona'.
+     */
+    public Persona(String nombre, String DNI, int edad) {
+        this.setNombre(nombre.toUpperCase());
+        this.setDNI(DNI);
+        this.setEdad(edad);
+    }
 	
 //	TO STRING
 	/**
