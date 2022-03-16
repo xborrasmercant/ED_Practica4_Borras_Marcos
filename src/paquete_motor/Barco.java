@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package practica3_1;
+package paquete_motor;
 /**
  * Esta clase, llamada 'Barco', tiene definidos los atributos 'nombre','Date' y 
  * 'numCamarote'.

@@ -1,9 +1,9 @@
-package practica3;
+package paquete_persona;
 
 /**
  * Esta clase, llamada 'Persona', tiene definidos los atributos 'nombre', 'DNI' y 'edad'.
- * Contiene sus setters y getters correspondientes y sus constructores vacío y completo respectivamente; también contiene el método ToString.
- * @author: Xavier Borrás Mercant
+ * Contiene sus setters y getters correspondientes y sus constructores vacï¿½o y completo respectivamente; tambiï¿½n contiene el mï¿½todo ToString.
+ * @author: Xavier Borrï¿½s Mercant
  * @version: 1.0
  */
 
@@ -16,7 +16,7 @@ public class Persona {
 //	SETTERS
 	
 	/**
-	 * Método set que sirve para otorgar valor a un atributo.
+	 * Mï¿½todo set que sirve para otorgar valor a un atributo.
 	 * @param nombre El parametro 'nombre', de tipo String, hace referencia al atributo de la clase.
 	 */
 	public void setNombre(String nombre) {
@@ -24,7 +24,7 @@ public class Persona {
 	}
 	
 	/**
-	 * Método set que sirve para otorgar valor a un atributo.
+	 * Mï¿½todo set que sirve para otorgar valor a un atributo.
 	 * @param DNI El parametro 'DNI', de tipo String, hace referencia al atributo de la clase.
 	 */
 	public void setDNI(String DNI) {
@@ -32,7 +32,7 @@ public class Persona {
 	}
 	
 	/**
-	 * Método set que sirve para otorgar valor a un atributo.
+	 * Mï¿½todo set que sirve para otorgar valor a un atributo.
 	 * @param edad El parametro 'edad', de tipo int, hace referencia al atributo de la clase.
 	 */
 	public void setEdad(int edad) {
@@ -42,7 +42,7 @@ public class Persona {
 	
 //	GETTERS
 	/**
-	 * Método get que sirve para devolver el valor del atributo 'nombre'.
+	 * Mï¿½todo get que sirve para devolver el valor del atributo 'nombre'.
 	 * @return Devuelve el valor del atributo 'nombre'.
 	 */
 	public String getNombre() {
@@ -50,7 +50,7 @@ public class Persona {
 	}
 	
 	/**
-	 * Método get que sirve para devolver el valor de un atributo.
+	 * Mï¿½todo get que sirve para devolver el valor de un atributo.
 	 * @return Devuelve el valor del atributo 'DNI'.
 	 */
 	public String getDNI() {
@@ -58,7 +58,7 @@ public class Persona {
 	}
 	
 	/**
-	 * Método get que sirve para devolver el valor de un atributo.
+	 * Mï¿½todo get que sirve para devolver el valor de un atributo.
 	 * @return Devuelve el valor del atributo 'edad'.
 	 */
 	public int getEdad() {
@@ -68,7 +68,7 @@ public class Persona {
 // CONSTRUCTORES
 	
 	/**
-	 * Constructor de la clase 'Persona', que establece sus atributos con el valor 'null', o sea, vacíos.
+	 * Constructor de la clase 'Persona', que establece sus atributos con el valor 'null', o sea, vacï¿½os.
 	 */
 	public Persona() {
 		this.nombre = null;
@@ -78,9 +78,9 @@ public class Persona {
 	
 	/**
 	 * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Persona'.
-	 * @param nombre El parámetro 'nombre' le otorga un valor en mayúsculas de tipo String al atributo 'nombre' de la clase 'Persona'.
-	 * @param DNI El parámetro 'DNI' le otorga un valor de tipo String al atributo 'DNI' de la clase 'Persona'.
-	 * @param nombre El parámetro 'edad' le otorga un valor de tipo int al atributo 'edad' de la clase 'Persona'.
+	 * @param nombre El parï¿½metro 'nombre' le otorga un valor en mayï¿½sculas de tipo String al atributo 'nombre' de la clase 'Persona'.
+	 * @param DNI El parï¿½metro 'DNI' le otorga un valor de tipo String al atributo 'DNI' de la clase 'Persona'.
+	 * @param nombre El parï¿½metro 'edad' le otorga un valor de tipo int al atributo 'edad' de la clase 'Persona'.
 	 */
 	public Persona(String nombre, String DNI, int edad) {
 		this.nombre = nombre.toUpperCase();
@@ -90,7 +90,7 @@ public class Persona {
 	
 //	TO STRING
 	/**
-	 * Este método permite devolver los atributos de un objeto de tipo 'Persona'.
+	 * Este mï¿½todo permite devolver los atributos de un objeto de tipo 'Persona'.
 	 */
 	@Override
 	public String toString() {

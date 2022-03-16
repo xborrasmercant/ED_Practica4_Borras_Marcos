@@ -1,9 +1,9 @@
-package practica3;
+package paquete_persona;
 
 /**
 * Esta clase, llamada 'Juguete', es hija de la clase 'Ninyo' y tiene definidos los atributos 'nombre', 'precio' y 'edadRecomendada'.
-* 	 Contiene sus setters y getters correspondientes y sus constructores vacío y completo respectivamente; también contiene el método ToString.
-* @author: Xavier Borrás Mercant
+* 	 Contiene sus setters y getters correspondientes y sus constructores vacï¿½o y completo respectivamente; tambiï¿½n contiene el mï¿½todo ToString.
+* @author: Xavier Borrï¿½s Mercant
 * @version: 1.0
 */
 	
@@ -16,24 +16,24 @@ public class Juguete extends Ninyo {
 	
 //	SETTERS
 	/**
-	 * Método set que sirve para otorgar valor a un atributo.
-	 * @param nombre El parámetro 'nombre', de tipo String, hace referencia al atributo de la clase.
+	 * Mï¿½todo set que sirve para otorgar valor a un atributo.
+	 * @param nombre El parï¿½metro 'nombre', de tipo String, hace referencia al atributo de la clase.
 	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 	
 	/**
-	 * Método set que sirve para otorgar valor a un atributo.
-	 * @param precio El parámetro 'precio', de tipo int, hace referencia al atributo de la clase.
+	 * Mï¿½todo set que sirve para otorgar valor a un atributo.
+	 * @param precio El parï¿½metro 'precio', de tipo int, hace referencia al atributo de la clase.
 	 */		
 	public void setPrecio(int precio) {
 		this.precio = precio;
 	}
 						
 	/**
-	 * Método set que sirve para otorgar valor a un atributo.
-	 * @param edadRecomendada El parámetro 'edadRecomendada', de tipo int, hace referencia al atributo de la clase.
+	 * Mï¿½todo set que sirve para otorgar valor a un atributo.
+	 * @param edadRecomendada El parï¿½metro 'edadRecomendada', de tipo int, hace referencia al atributo de la clase.
 	 */
 	public void setEdadRecomendada(int edadRecomendada) {
 		this.edadRecomendada = edadRecomendada;
@@ -41,7 +41,7 @@ public class Juguete extends Ninyo {
 						
 //	GETTERS
 	/**
-	 * Método get que sirve para devolver el valor de un atributo.
+	 * Mï¿½todo get que sirve para devolver el valor de un atributo.
 	 * @return Devuelve el valor del atributo 'nombre'.
 	 */
 	public String getNombre() {
@@ -49,7 +49,7 @@ public class Juguete extends Ninyo {
 	}
 	
 	/**
-	 * Método get que sirve para devolver el valor de un atributo.
+	 * Mï¿½todo get que sirve para devolver el valor de un atributo.
 	 * @return Devuelve el valor del atributo 'precio'.
 	 */
 	public int getPrecio() {
@@ -57,7 +57,7 @@ public class Juguete extends Ninyo {
 	}
 	
 	/**
-	 * Método get que sirve para devolver el valor de un atributo.
+	 * Mï¿½todo get que sirve para devolver el valor de un atributo.
 	 * @return Devuelve el valor del atributo 'edadRecomendada'.
 	 */
 	public int getEdad() {
@@ -66,7 +66,7 @@ public class Juguete extends Ninyo {
 						
 	// CONSTRUCTORES
 	/**
-	 * Constructor de la clase 'Juguete', que establece sus atributos con el valor 'null', o sea, vacíos.
+	 * Constructor de la clase 'Juguete', que establece sus atributos con el valor 'null', o sea, vacï¿½os.
 	 */
 	public Juguete() {
 		this.nombre = null;
@@ -76,9 +76,9 @@ public class Juguete extends Ninyo {
 				
 	/**
 	 * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Juguete'.
-	 * @param nombre El parámetro 'nombre' le otorga un valor de tipo String al atributo 'nombre' de la clase 'Juguete'.
-	 * @param precio El parámetro 'precio' le otorga un valor de tipo int al atributo 'precio' de la clase 'Juguete'.
-	 * @param edadRecomendada El parámetro 'edadRecomendada' le otorga un valor de tipo int al atributo 'edadRecomendada' de la clase 'Juguete'.
+	 * @param nombre El parï¿½metro 'nombre' le otorga un valor de tipo String al atributo 'nombre' de la clase 'Juguete'.
+	 * @param precio El parï¿½metro 'precio' le otorga un valor de tipo int al atributo 'precio' de la clase 'Juguete'.
+	 * @param edadRecomendada El parï¿½metro 'edadRecomendada' le otorga un valor de tipo int al atributo 'edadRecomendada' de la clase 'Juguete'.
 	 */
 	public Juguete(String nombre, int precio, int edadRecomendada) {
 		this.nombre = nombre;
@@ -88,7 +88,7 @@ public class Juguete extends Ninyo {
 			
 //	TO STRING
 	/**
-	 * Este método permite devolver los atributos de un objeto de tipo 'Juguete'.
+	 * Este mï¿½todo permite devolver los atributos de un objeto de tipo 'Juguete'.
 	 */
 	@Override
 	public String toString() {

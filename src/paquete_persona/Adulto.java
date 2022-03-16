@@ -1,9 +1,9 @@
-package practica3;
+package paquete_persona;
 
 /**
  * Esta clase, llamada 'Adulto', es hija de la clase 'Persona' y tiene definidos los atributos 'NSS' y 'direccion'.
- *  Contiene sus setters y getters correspondientes y sus constructores vacío y completo respectivamente; también contiene el método ToString.
- * @author: Xavier Borrás Mercant
+ *  Contiene sus setters y getters correspondientes y sus constructores vacï¿½o y completo respectivamente; tambiï¿½n contiene el mï¿½todo ToString.
+ * @author: Xavier Borrï¿½s Mercant
  * @version: 1.0
  */
 
@@ -13,7 +13,7 @@ public class Adulto extends Persona {
 		
 //	SETTERS
 	/**
-	 * Método set que sirve para otorgar valor a un atributo.
+	 * Mï¿½todo set que sirve para otorgar valor a un atributo.
 	 * @param NSS El parametro 'NSS', de tipo String, hace referencia al atributo de la clase.
 	 */
 	public void setNSS(String NSS) {
@@ -21,7 +21,7 @@ public class Adulto extends Persona {
 	}
 	
 	/**
-	 * Método set que sirve para otorgar valor a un atributo.
+	 * Mï¿½todo set que sirve para otorgar valor a un atributo.
 	 * @param direccion El parametro 'direccion', de tipo String, hace referencia al atributo de la clase.
 	 */
 	public void setDireccion(String direccion) {
@@ -30,7 +30,7 @@ public class Adulto extends Persona {
 		
 //	GETTERS
 	/**
-	 * Método get que sirve para devolver el valor de un atributo.
+	 * Mï¿½todo get que sirve para devolver el valor de un atributo.
 	 * @return Devuelve el valor del atributo 'NSS'.
 	 */
 	public String getNSS() {
@@ -38,7 +38,7 @@ public class Adulto extends Persona {
 	}
 		
 	/**
-	 * Método get que sirve para devolver el valor de un atributo.
+	 * Mï¿½todo get que sirve para devolver el valor de un atributo.
 	 * @return Devuelve el valor del atributo 'direccion'.
 	 */
 	public String getDireccion() {
@@ -46,7 +46,7 @@ public class Adulto extends Persona {
 	}
 	
 	/**
-	 * Constructor de la clase 'Persona', que establece sus atributos con el valor 'null', o sea, vacíos.
+	 * Constructor de la clase 'Persona', que establece sus atributos con el valor 'null', o sea, vacï¿½os.
 	 */
 	// CONSTRUCTORES
 	public Adulto() {
@@ -56,8 +56,8 @@ public class Adulto extends Persona {
 	
 	/**
 	 * Constructor completo para otorgarle un valor por defecto a cada atributo de la clase 'Adulto'.
-	 * @param NSS El parámetro 'NSS' le otorga un valor en mayúsculas de tipo String al atributo 'NSS' de la clase 'Adulto'.
-	 * @param direccion El parámetro 'direccion' le otorga un valor de tipo String al atributo 'direccion' de la clase 'Adulto'.
+	 * @param NSS El parï¿½metro 'NSS' le otorga un valor en mayï¿½sculas de tipo String al atributo 'NSS' de la clase 'Adulto'.
+	 * @param direccion El parï¿½metro 'direccion' le otorga un valor de tipo String al atributo 'direccion' de la clase 'Adulto'.
 	 */
 	public Adulto(String nombre, String DNI, Integer edad, String NSS, String direccion) {
 		super(nombre, DNI, edad);
@@ -67,10 +67,10 @@ public class Adulto extends Persona {
 	
 //	TO STRING
 	/**
-	 * Este método permite devolver los atributos de un objeto de tipo 'Adulto'.
+	 * Este mï¿½todo permite devolver los atributos de un objeto de tipo 'Adulto'.
 	 */
 	@Override
 	public String toString() {
-		return ("Nombre: "+getNombre()+" DNI: "+getDNI()+" Edad: "+getEdad()+" NSS: "+NSS+" Dirección: "+direccion);
+		return ("Nombre: "+getNombre()+" DNI: "+getDNI()+" Edad: "+getEdad()+" NSS: "+NSS+" Direcciï¿½n: "+direccion);
 	}
 }
