@@ -71,11 +71,9 @@ public class Motor {
          * Constructor de la clase 'Motor', que establece sus atributos con el 
          * valor 'null', o sea, vacíos.
          */
-    public Motor() {
-        this.setFabricante(null);
-        this.setPotencia(null);
-        this.setCodigo(0);
-    }
+        public Motor() {
+            this("","",0);
+        }
     //Constructor Completo
         /**
          * Constructor completo para otorgarle un valor por defecto a cada 

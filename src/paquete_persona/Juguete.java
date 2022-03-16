@@ -69,9 +69,7 @@ public class Juguete extends Ninyo {
 	 * Constructor de la clase 'Juguete', que establece sus atributos con el valor 'null', o sea, vac�os.
 	 */
 	public Juguete() {
-        this.setNombre(null);
-        this.setPrecio(0);
-        this.setEdadRecomendada(0);
+        this("",0,0);
     }
 
     /**

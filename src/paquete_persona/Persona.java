@@ -71,9 +71,7 @@ public class Persona {
 	 * Constructor de la clase 'Persona', que establece sus atributos con el valor 'null', o sea, vac�os.
 	 */
 	public Persona() {
-        this.setNombre(null);
-        this.setDNI(null);
-        this.setEdad(0);
+        this("","",0);
     }
 
     /**

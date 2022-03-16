@@ -34,7 +34,7 @@ public class Ninyo extends Persona {
 	 * Constructor de la clase 'Ninyo', que establece sus atributos con el valor 'null', o sea, vac�os.
 	 */
 	public Ninyo() {
-        this.setColegio(null);
+        this("","",0,"");
     }
 
     /**

@@ -39,7 +39,7 @@ public class Gato extends Mascota{
      * valor 'null', o sea, vacios.
      */
     public Gato() {
-        this.setRaza(null);
+        this("","",0);
     }
     //Constructor Completo
     /**

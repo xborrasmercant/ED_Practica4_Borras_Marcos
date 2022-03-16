@@ -38,8 +38,8 @@ public class Perro extends Mascota{
      * Constructor de la clase 'Perro', que establece sus atributos con el 
      * valor 'null', o sea, vacios.
      */
-   public Perro() {
-        this.setRaza(null);
+    public Perro() {
+        this("","",0);
     }
     //Constructor Completo
     /**

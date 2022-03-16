@@ -55,10 +55,9 @@ public class Mascota implements Sonido {
          * Constructor de la clase 'Mascota', que establece sus atributos con el 
          * valor 'null', o sea, vacios.
          */
-    public Mascota() {
-        this.setNombre(null);
-        this.setEdad(0);
-    }
+        public Mascota() {
+            this("",0);
+        }
     //Constructor Completo
         /**
          * Constructor completo para otorgarle un valor por defecto a cada 

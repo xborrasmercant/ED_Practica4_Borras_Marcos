@@ -49,9 +49,8 @@ public class Adulto extends Persona {
 	 * Constructor de la clase 'Persona', que establece sus atributos con el valor 'null', o sea, vac�os.
 	 */
 	// CONSTRUCTORES
-public Adulto() {
-        this.setNSS(null);
-        this.setDireccion(null);
+	public Adulto() {
+        this("","",0,"","");
     }
 
     /**
