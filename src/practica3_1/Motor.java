@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package practica3;
+package practica3_1;
 /**
  * Esta clase, llamada 'Motor', tiene definidos los atributos 'fabricante',
  * 'potencia' y 'codigo'.
